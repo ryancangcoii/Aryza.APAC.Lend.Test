@@ -1,0 +1,14 @@
+Test Exercise 3
+If you have completed the previous test exercise, you can continue with this one 
+The project includes an interface ICalculatesInterest. Make use of this interface to implement on the relevant classes
+so that calling the CalculateInterest() method to get the below output
+
+Update the FinancialSystem.CalculateInterest() method so that it takes a date range and uses this interface to calculate and display daily interest for each applicable account using the following formula:
+Interest = Balance × InterestRate × NumberOfDays / 365
+
+Expected Test 3 Program Output
+
+Exercise 3: Press any key to calculate interest  
+LoanAccount calculated interest from 01/01/2024 to 01/03/2024: $82.19 (10000 × 5% × 60 / 365)  
+TransactionAccount calculated interest from 01/01/2024 to 01/03/2024: $4.11 (2500 × 1% × 60 / 365)  
+TrustAccount calculated interest from 01/01/2024 to 01/03/2024: $9.86 (3000 × 2% × 60 / 365) 

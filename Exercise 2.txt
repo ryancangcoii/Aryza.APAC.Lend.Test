@@ -1,0 +1,16 @@
+Test Exercise 2
+If you have completed the first test exercise, you can continue with the second one.
+Modify the program and the FinancialSystem.DescribeAllAccounts() method so that each account provides a detailed description of itself. This description should include:
+
+The type of account
+Its balance
+Its interest rate (if applicable)
+Accounts that do not earn interest (e.g. OffsetAccount) should clearly state that they are non-interest-bearing and should not include an InterestRate field.
+
+Expected Test 2 Program Output
+
+Exercise 2: Press any key to list account descriptions  
+LoanAccount: $10,000.00 balance at 5% interest  
+OffsetAccount: $5,000.00 balance (non-interest-bearing)  
+TransactionAccount: $2,500.00 balance at 1% interest  
+TrustAccount: $3,000.00 balance at 2% interest 

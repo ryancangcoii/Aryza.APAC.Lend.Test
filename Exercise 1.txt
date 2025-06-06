@@ -1,0 +1,6 @@
+Exercise 1 : Apply OOP concepts (abstraction and encapsulation) to the classes 
+modify the code to get the output below
+LoanAccount has been opened  
+OffsetAccount has been opened  
+TransactionAccount has been opened  
+TrustAccount has been opened 

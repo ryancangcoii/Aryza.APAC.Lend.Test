@@ -1,0 +1,21 @@
+Test Exercise 4
+If you have completed the previous test exercise, you can continue with this one.
+
+Add internal storage to the FinancialSystem class to hold all opened accounts.
+Implement the CloseAllAccounts() method to:
+    Iterate through each stored account.
+    If it’s a LoanAccount, print a message like "LoanAccount has been discharged" and set its Balance to 0.
+    For other accounts, print a message like "TrustAccount has been closed", but keep their balances intact.
+    Remove all accounts from the system or clear the collection.
+Once all accounts have been processed, print:
+    All accounts have been finalised
+
+
+Expected Test 4 Program Output
+
+Exercise 4: Press any key to close all accounts  
+LoanAccount has been discharged  
+OffsetAccount has been closed  
+TransactionAccount has been closed  
+TrustAccount has been closed  
+All accounts have been finalised  
