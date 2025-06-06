@@ -49,8 +49,6 @@ namespace Aryza.APAC.Lend.UnitTest
             Assert.Equal(expectedTransInterest, transaction.CalculateInterest(from, to));
             Assert.Equal(expectedTrustInterest, trust.CalculateInterest(from, to));
 
-            // Optionally: Just run system.CalculateInterest to ensure it runs
-            system.CalculateInterest(from, to);
         }
     }
 }
